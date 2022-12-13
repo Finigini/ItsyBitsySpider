@@ -59,3 +59,17 @@ if room != RoomRelax
 {
 	spawn_spiders();
 }
+
+function addSpiderAvoid()
+{
+	spawnX = random(room_width);
+	spawnY = random(room_height);
+	instance_create_depth(spawnX,spawnY,0,obj_spiderAvoid);
+}
+
+function addSpiderWander()
+{
+	spawnX = random(room_width);
+	spawnY = random(room_height);
+	instance_create_depth(spawnX,spawnY,0,obj_spiderWander);
+}
