@@ -2,7 +2,7 @@
 
 //RAIN----------------------------
 raindropRate = 1;
-raindropPerDrop = 1;
+raindropPerDrop = 0;
 raindropSizeMin = 1;
 raindropSizeMax = 6;
 //start raindrops
